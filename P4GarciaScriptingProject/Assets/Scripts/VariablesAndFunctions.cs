@@ -13,7 +13,7 @@ public class VariablesAndFunctions : MonoBehaviour
     void Start()
     {
         //run my variable thru my function
-        myInt = MultipleByTwo(myInt);
+        myInt = MultiplyBytwo(myInt);
         Debug.Log(myInt);
     }
     // Update is called once per frame
@@ -29,7 +29,10 @@ public class VariablesAndFunctions : MonoBehaviour
         int result;
 
         //multiplying the num,ber by two
-        result = 
+        result = number = 2;
+
+        //return the value
+        return result;
     }
 
 }
