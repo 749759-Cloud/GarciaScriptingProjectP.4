@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+// Start is called before the first frame update
+void Start()
     {
         
     }
@@ -17,10 +17,7 @@ public class PlayerController : MonoBehaviour
         float horizontal = 0.0f;
         if (Keyboard.current.leftArrowKey.isPressed)
         {
-            horizontal = 1.0f;
+            horizontal = -1.0f;
         }
-        Vector2 position = transform.position;
-        position.x = position.x + 0.1f;
-        transform.position = position;
-    }
+        
 }
